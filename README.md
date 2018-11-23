@@ -31,12 +31,12 @@ To use: simply connect the forceplate, choose your samplingrate and hit 'Link'. 
 
   * Make sure that the force plate is powered and plugged correctly into the AMTI serial port adapter. Some adapters support two plates and have a switch to select between A and A+B which can flip easily during transport. The adapter will **not** transmit any data if it is set to A+B while only one plate is plugged in.
 
-  * Start the AMTIForcePlate app. You should see a window like the following.
-> ![amtiforceplate.png](https://raw.githubusercontent.com/labstreaminglayer/App-AMTIForcePlate/amtiforceplate.png)
+  * Start the AMTIForcePlate app. You should see a window like the following:
+>![amtiforceplate.png](amtiforceplate.png)
 
   * Make sure that you have the right COM port (you should see this in your Control Panel / System / Device Manager / Ports / COMx system setting. We have had trouble using any other sampling rate than 50Hz with our plate + USB adapter combination, so a reasonable first choice is 50Hz. Let us know if you can use the other sampling rates successfully (there are various settings that might be tried for this purpose in the system's COM port settings).
 
   * Click the "Link" button. If all goes well you should now have a stream on your lab network that has type "Force" and its name is "AMTIForcePlate". When you click on Link the force plate automatically recalibrates itself to "zero" output, so you should link it before it is being loaded. Note that you cannot close the app while it is linked.
 
   * For subsequent uses you can save the desired port number and sampling rate by hand in the configuration file or save the new settings that you have applied in the GUI via File / Save Configuration. If the app is frequently used with different settings you might can also make a shortcut on the desktop that points to the app and appends to the Target field the snippet `-c name_of_config.cfg`, as in the following screen shot:
-> ![amtiforceplate-shortcut.png](https://raw.githubusercontent.com/labstreaminglayer/App-AMTIForcePlate/amtiforceplate-shortcut.png)
+>![amtiforceplate-shortcut.png](amtiforceplate-shortcut.png)
