@@ -1,1 +1,0 @@
-To use: simply connect the forceplate, choose your samplingrate and hit 'Link'. When relinking, the connection will sometimes fail. Try again, and if the problem persists, close the app, powercycle the forceplate (unplug it), and restart the app.
