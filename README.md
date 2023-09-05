@@ -2,6 +2,8 @@
 
 This application should support LSL streaming from the majority of force plates manufactured by AMTI (http://amti.biz/) that rely on serial-port communication. Note that a serial-to-USB adapter can be used in place of a true serial port. The program produces 7 channels of output, including a 3-dimensional force vector, a 3-dimensional momentum vector, and a 0/1-valued trigger channel.
 
+You can download the (now old) binary from the [releases page](https://github.com/labstreaminglayer/App-AMTIForcePlate/releases).
+
 # Setup
 Most force plates come with a calibration sheet (or CD) that contains a mapping between sensors and force/momentum vectors; this mapping is a matrix that is different for each unit, and consequently it needs to be entered into the configuration file before the force plate app can be used. Unless otherwise specified the file named `forceplate_config.cfg` is  loaded at startup, which looks as in the following example. The calibration matrix is found in the setting `calibration_matrix1`.
 
